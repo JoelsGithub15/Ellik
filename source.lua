@@ -50,7 +50,7 @@ for i,v in pairs(game.CoreGui:GetChildren()) do
 end
 
 function ellik:Create(options)
-    local title = options.Title or "Ellik UI"   
+    local title = options.Title or "Galaxy Hub"   
     local EllikUI = Instance.new("ScreenGui")
     local backFrame = Instance.new("Frame")
     local UICorner = Instance.new("UICorner")
@@ -70,7 +70,7 @@ function ellik:Create(options)
     
     --Properties:
     
-    EllikUI.Name = "EllikUI"
+    EllikUI.Name = "Galaxy Hub"
     EllikUI.Parent = game.CoreGui
     EllikUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     
